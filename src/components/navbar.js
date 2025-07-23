@@ -71,7 +71,7 @@ function Navbar() {
             className="text-2xl font-bold text-green-600 cursor-pointer"
             onClick={(e) => handleNavClick(e, 'beranda')}
           >
-            🌿 Toga Roban Barat
+            🌿 TOGARDEN
           </h1>
         </div>
 
@@ -102,11 +102,11 @@ function Navbar() {
           </a>
 
           <a
-            href="#cara-menanam"
-            onClick={(e) => handleNavClick(e, 'cara-menanam')}
+            href="#caraMerawat"
+            onClick={(e) => handleNavClick(e, 'caraMerawat')}
             className="rounded-full px-4 py-2 text-gray-600 hover:text-white hover:bg-green-600 transition-colors cursor-pointer"
           >
-            Cara Menanam
+            Cara Merawat
           </a>
         </div>
 
@@ -177,11 +177,11 @@ function Navbar() {
             Manfaat
           </a>
           <a
-            href="#cara-menanam"
-            onClick={(e) => handleNavClick(e, 'cara-menanam')}
+            href="#caraMerawat"
+            onClick={(e) => handleNavClick(e, 'caraMerawat')}
             className="block px-6 py-4 text-gray-700 hover:text-green-600 hover:bg-green-50 transition-colors border-b border-gray-100 cursor-pointer"
           >
-            Cara Menanam
+            Cara Merawat
           </a>
         </div>
       </div>

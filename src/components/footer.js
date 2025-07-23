@@ -14,7 +14,7 @@ function Footer() {
             <ul className="space-y-2 text-gray-300">
               <li><a href="#beranda" className="hover:text-green-400 transition-colors">Beranda</a></li>
               <li><a href="#manfaat" className="hover:text-green-400 transition-colors">Manfaat</a></li>
-              <li><a href="#cara-menanam" className="hover:text-green-400 transition-colors">Cara Menanam</a></li>
+              <li><a href="#caraMerawat" className="hover:text-green-400 transition-colors">Cara Merawat</a></li>
             </ul>
           </div>
           <div>

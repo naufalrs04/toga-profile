@@ -126,7 +126,7 @@ function App() {
               </div>
             </div>
 
-            {/* 2. Laos */}
+            {/* 2. Lengkuas */}
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-200">
               <div className="text-center">
                 <div className="relative w-full h-[220px] sm:h-[250px] md:h-[220px] lg:h-[250px]">
@@ -137,7 +137,7 @@ function App() {
                     className="object-cover rounded-lg"
                   />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-800 mb-2 mt-4">Laos</h3>
+                <h3 className="text-2xl font-bold text-gray-800 mb-2 mt-4">Lengkuas</h3>
                 <p className="text-sm text-gray-600 italic mb-3">Alpinia galanga</p>
                 <p className="text-gray-700">
                   Digunakan sebagai bumbu dapur dan obat tradisional untuk mengatasi perut kembung dan meningkatkan nafsu makan
@@ -145,7 +145,7 @@ function App() {
               </div>
             </div>
 
-            {/* 3. Kunir */}
+            {/* 3. Kunyit */}
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-200">
               <div className="text-center">
                 <div className="relative w-full h-[220px] sm:h-[250px] md:h-[220px] lg:h-[250px]">
@@ -156,29 +156,10 @@ function App() {
                     className="object-cover rounded-lg"
                   />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-800 mb-2 mt-4">Kunir</h3>
+                <h3 className="text-2xl font-bold text-gray-800 mb-2 mt-4">Kunyit</h3>
                 <p className="text-sm text-gray-600 italic mb-3">Curcuma longa</p>
                 <p className="text-gray-700">
                   Dikenal sebagai anti-inflamasi alami dan sering digunakan untuk meningkatkan daya tahan tubuh
-                </p>
-              </div>
-            </div>
-
-            {/* 4. Kencur */}
-            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-200">
-              <div className="text-center">
-                <div className="relative w-full h-[220px] sm:h-[250px] md:h-[220px] lg:h-[250px]">
-                  <Image
-                    src="/assets/tanaman/kencur.jpg"
-                    alt="Tanaman Kencur"
-                    fill
-                    className="object-cover rounded-lg"
-                  />
-                </div>
-                <h3 className="text-2xl font-bold text-gray-800 mb-2 mt-4">Kencur</h3>
-                <p className="text-sm text-gray-600 italic mb-3">Kaempferia galanga</p>
-                <p className="text-gray-700">
-                  Umumnya digunakan dalam jamu tradisional untuk meredakan batuk dan meningkatkan energi
                 </p>
               </div>
             </div>
@@ -220,6 +201,27 @@ function App() {
                 </p>
               </div>
             </div>
+
+            {/* 7. Temulawak */}
+            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-200">
+              <div className="text-center">
+                <div className="relative w-full h-[220px] sm:h-[250px] md:h-[220px] lg:h-[250px]">
+                  <Image
+                    src="/assets/tanaman/temulawak.jpg" 
+                    alt="Tanaman Temulawak"
+                    fill
+                    className="object-cover rounded-lg"
+                    priority
+                  />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-800 mb-2 mt-4">Temulawak</h3>
+                <p className="text-sm text-gray-600 italic mb-3">Curcuma xanthorrhiza</p>
+                <p className="text-gray-700">
+                  Rimpang dengan kandungan kurkumin tinggi yang bermanfaat untuk menjaga fungsi hati dan meningkatkan nafsu makan.
+                </p>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -261,6 +263,46 @@ function App() {
           </div>
         </div>
       </section>
+
+
+      {/* Cara Merawat Section */}
+      <section id="caraMerawat" className="py-20 bg-green-50">
+        <div className="container mx-auto px-4 md:px-8 lg:px-16">
+          <div className="grid lg:grid-cols-2 gap-6 items-center">
+            {/* Gambar Poster */}
+            <div className="w-full max-w-xl mx-auto relative">
+              <Image
+                src="/assets/poster/cara-merawat.jpg"
+                alt="Poster Cara Merawat Tanaman Obat"
+                width={1000}
+                height={1333} // contoh rasio 3:4
+                className="rounded-3xl mx-auto w-full h-auto"
+              />
+            </div>
+
+            {/* Penjelasan / Ajakan */}
+            <div className="space-y-6">
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-800">
+                Cara <span className="text-green-600">Merawat</span> Tanaman Obat
+              </h2>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Untuk memastikan tanaman obat keluarga tumbuh subur dan memberikan manfaat maksimal, penting untuk melakukan perawatan yang tepat. Berikut adalah tips singkat:
+              </p>
+              <ul className="list-disc list-inside text-gray-700 space-y-2">
+                <li>Pilih media tanam yang gembur dan kaya nutrisi</li>
+                <li>Siram tanaman secara teratur, namun tidak berlebihan</li>
+                <li>Letakkan di tempat dengan sinar matahari yang cukup</li>
+                <li>Pangkas daun kering untuk merangsang pertumbuhan baru</li>
+                <li>Gunakan pupuk organik secara berkala</li>
+              </ul>
+              <p className="text-gray-600 italic">
+                *Lihat poster di samping untuk panduan lengkap perawatan TOGA
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
 
       <Footer/>
     </div>
