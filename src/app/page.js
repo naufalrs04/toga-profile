@@ -56,21 +56,30 @@ function App() {
         <div className="container mx-auto px-4 md:px-8 lg:px-16">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight mt-5">
                 Tanaman Obat
                 <span className="text-green-600"> Keluarga</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
                 Temukan berbagai tanaman obat keluarga (TOGA) yang ditanam di lingkungan Dukuh Roban Barat RT 08, untuk menjaga kesehatan keluarga secara alami.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col md:flex-row gap-4 mt-6">
                 <a
                   href="#jenis-tanaman"
-                  className="border-2 border-green-600 text-green-600 px-8 py-3 rounded-full hover:bg-green-600 hover:text-white transition-colors font-semibold text-center"
+                  className="bg-green-100 text-green-700 px-8 py-3 rounded-full border-2 border-green-600 hover:bg-green-600 hover:text-white hover:shadow-lg transition-all font-semibold text-center"
                 >
-                  Pelajari Lebih Lanjut
+                  🌿 Pelajari Lebih Lanjut
                 </a>
+                <a
+                  href="https://heyzine.com/flip-book/cbcdabe621.html"
+                  target="_blank"
+                  className="bg-green-100 text-green-700 px-8 py-3 rounded-full border-2 border-green-600 hover:bg-green-600 hover:text-white hover:shadow-lg transition-all font-semibold text-center"
+                >
+                  📖 FlipBook TOGA Desa Sehat
+                </a>
+
               </div>
+
             </div>
             <div className="relative">
               <div className="bg-gradient-to-br from-green-200 to-green-300 rounded-3xl p-8 shadow-xl">
@@ -297,6 +306,41 @@ function App() {
               </ul>
               <p className="text-gray-600 italic">
                 *Lihat poster di samping untuk panduan lengkap perawatan TOGA
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Olahan Tanaman TOGA Section */}
+      <section id="olahan" className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4 md:px-8 lg:px-16">
+          <div className="grid lg:grid-cols-2 gap-8 items-center">
+            <div className="w-full max-w-md mx-auto relative">
+              <Image
+                src="/assets/poster/olahan.jpg"
+                alt="Olahan Tanaman TOGA"
+                width={1000}
+                height={1415}
+                className="rounded-2xl mx-auto w-full h-auto"
+              />
+            </div>
+            <div className="space-y-6">
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-800">
+                <span className="text-green-600">Olahan</span> dari Tanaman Obat
+              </h2>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Tanaman obat keluarga (TOGA) tidak hanya bermanfaat dalam bentuk segar, tetapi juga dapat diolah menjadi berbagai produk yang praktis dan efektif untuk kesehatan sehari-hari.
+              </p>
+              <ul className="list-disc list-inside text-gray-700 space-y-2">
+                <li>Jamu tradisional seperti kunyit asam dan beras kencur</li>
+                <li>Teh herbal dari jahe, serai, dan kencur</li>
+                <li>Minyak gosok dan salep dari daun sirih atau kunyit</li>
+                <li>Serbuk/bubuk herbal yang mudah diseduh</li>
+                <li>Produk olahan ala Jepang seperti Kampō-yaku dan Yakuzō-cha</li>
+              </ul>
+              <p className="text-gray-600 italic">
+                *Lihat poster di samping untuk contoh lengkap dan inspirasi olahan TOGA
               </p>
             </div>
           </div>

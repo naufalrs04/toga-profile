@@ -16,6 +16,8 @@ function Footer() {
               <li><a href="#jenis-tanaman" className="hover:text-green-400 transition-colors">Jenis Tanaman</a></li>
               <li><a href="#manfaat" className="hover:text-green-400 transition-colors">Manfaat</a></li>
               <li><a href="#cara-merawat" className="hover:text-green-400 transition-colors">Cara Merawat</a></li>
+              <li><a href="#olahan" className="hover:text-green-400 transition-colors">Olahan</a></li>
+              <li><a href="https://heyzine.com/flip-book/cbcdabe621.html" target='_blank' className="hover:text-green-400 transition-colors">FlipBook TOGA Desa Sehat</a></li>
             </ul>
           </div>
           <div>

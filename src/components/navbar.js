@@ -64,7 +64,7 @@ function Navbar() {
         isScrolled ? "bg-white shadow-md" : "bg-transparent"
       }`}
     >
-      <div className="flex justify-between items-center py-3 px-4 md:px-8 lg:px-16">
+      <div className="flex justify-between items-center py-4 px-4 md:px-8 lg:px-16">
         {/* Logo */}
         <div className="flex items-center">
           <h1 
@@ -107,6 +107,14 @@ function Navbar() {
             className="rounded-full px-4 py-2 text-gray-600 hover:text-white hover:bg-green-600 transition-colors cursor-pointer"
           >
             Cara Merawat
+          </a>
+
+          <a
+            href="#olahan"
+            onClick={(e) => handleNavClick(e, 'olahan')}
+            className="rounded-full px-4 py-2 text-gray-600 hover:text-white hover:bg-green-600 transition-colors cursor-pointer"
+          >
+            Olahan
           </a>
         </div>
 
@@ -182,6 +190,13 @@ function Navbar() {
             className="block px-6 py-4 text-gray-700 hover:text-green-600 hover:bg-green-50 transition-colors border-b border-gray-100 cursor-pointer"
           >
             Cara Merawat
+          </a>
+                    <a
+            href="#olahan"
+            onClick={(e) => handleNavClick(e, 'olahan')}
+            className="block px-6 py-4 text-gray-700 hover:text-green-600 hover:bg-green-50 transition-colors border-b border-gray-100 cursor-pointer"
+          >
+            Olahan
           </a>
         </div>
       </div>
