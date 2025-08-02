@@ -76,7 +76,7 @@ function App() {
               <div className="bg-gradient-to-br from-green-200 to-green-300 rounded-3xl p-8 shadow-xl">
                 <div className="text-center min-h-[450px] relative rounded-3xl overflow-hidden">
                   <Image
-                    src="/assets/cover-img.jpg"
+                    src="/assets/cover-img.png"
                     alt="Image of TOGA"
                     fill
                     className="object-cover opacity-60"
@@ -266,7 +266,7 @@ function App() {
 
 
       {/* Cara Merawat Section */}
-      <section id="caraMerawat" className="py-20 bg-green-50">
+      <section id="cara-merawat" className="py-20 bg-green-50">
         <div className="container mx-auto px-4 md:px-8 lg:px-16">
           <div className="grid lg:grid-cols-2 gap-6 items-center">
             {/* Gambar Poster */}
@@ -302,7 +302,6 @@ function App() {
           </div>
         </div>
       </section>
-
 
       <Footer/>
     </div>

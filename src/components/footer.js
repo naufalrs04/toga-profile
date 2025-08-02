@@ -13,8 +13,9 @@ function Footer() {
             <h4 className="text-lg font-semibold mb-4">Menu</h4>
             <ul className="space-y-2 text-gray-300">
               <li><a href="#beranda" className="hover:text-green-400 transition-colors">Beranda</a></li>
+              <li><a href="#jenis-tanaman" className="hover:text-green-400 transition-colors">Jenis Tanaman</a></li>
               <li><a href="#manfaat" className="hover:text-green-400 transition-colors">Manfaat</a></li>
-              <li><a href="#caraMerawat" className="hover:text-green-400 transition-colors">Cara Merawat</a></li>
+              <li><a href="#cara-merawat" className="hover:text-green-400 transition-colors">Cara Merawat</a></li>
             </ul>
           </div>
           <div>

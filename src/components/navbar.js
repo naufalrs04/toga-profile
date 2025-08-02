@@ -102,8 +102,8 @@ function Navbar() {
           </a>
 
           <a
-            href="#caraMerawat"
-            onClick={(e) => handleNavClick(e, 'caraMerawat')}
+            href="#cara-merawat"
+            onClick={(e) => handleNavClick(e, 'cara-merawat')}
             className="rounded-full px-4 py-2 text-gray-600 hover:text-white hover:bg-green-600 transition-colors cursor-pointer"
           >
             Cara Merawat
@@ -177,8 +177,8 @@ function Navbar() {
             Manfaat
           </a>
           <a
-            href="#caraMerawat"
-            onClick={(e) => handleNavClick(e, 'caraMerawat')}
+            href="#cara-merawat"
+            onClick={(e) => handleNavClick(e, 'cara-merawat')}
             className="block px-6 py-4 text-gray-700 hover:text-green-600 hover:bg-green-50 transition-colors border-b border-gray-100 cursor-pointer"
           >
             Cara Merawat
